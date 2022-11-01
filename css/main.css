@@ -146,7 +146,7 @@ img {
   content: "";
   position: absolute;
   left: 0;
-  bottom: 0px;
+  bottom: -1px;
   height: 4px;
   width: 100%;
   background-color: #2196f3;
@@ -411,6 +411,7 @@ img {
 
 .footer__address-link {
   color: #ffffff;
+  text-decoration: none;
 }
 
 .footer__contact-link {
@@ -835,7 +836,7 @@ img {
 .list-socseti__box-icon-socseti:hover, .list-socseti__box-icon-socseti:focus {
   background-color: #2196f3;
 }
-.list-socseti__link:hover .icon-socseti {
+.list-socseti__link:hover .icon-socseti, .list-socseti__link:focus .icon-socseti {
   fill: #ffffff;
 }
 
